@@ -26,7 +26,7 @@ public class SortByIdTest {
         Comparator<Item> comparator = (Comparator<Item>) new IdComparator();
 
         // when
-        Item[] actual = itemSorter.sort(comparator);
+        Item[] actual = (Item[]) itemSorter.sort(comparator);
 
         // then
         Assert.assertArrayEquals(expected, actual);
@@ -44,7 +44,7 @@ public class SortByIdTest {
         Comparator<Item> comparator = (Comparator<Item>) new IdComparator();
 
         // when
-        Item[] actual = itemSorter.sort(comparator);
+        Item[] actual = (Item[]) itemSorter.sort(comparator);
 
         // then
         Assert.assertArrayEquals(expected, actual);
@@ -62,7 +62,7 @@ public class SortByIdTest {
         Comparator<Item> comparator = (Comparator<Item>) new IdComparator();
 
         // when
-        Item[] actual = itemSorter.sort(comparator);
+        Item[] actual = (Item[]) itemSorter.sort(comparator);
 
         // then
         Assert.assertArrayEquals(expected, actual);

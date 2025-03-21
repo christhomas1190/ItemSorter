@@ -20,6 +20,7 @@ public class Item {
     }
 
     public String getName() {
+
         return name;
     }
 
@@ -28,6 +29,7 @@ public class Item {
     }
 
     public Long getId() {
+
         return id;
     }
 
@@ -36,6 +38,7 @@ public class Item {
     }
 
     public Double getPrice() {
+
         return price;
     }
 
